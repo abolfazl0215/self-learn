@@ -32,7 +32,15 @@
     animation-direction: $direction;
 }
 
-body {}
+@font-face {
+    src: url('Yekan.ttf');
+    font-family: "Fetne";
+    font-weight: 400;
+}
+
+body {
+    font-family: "Fetne";
+}
 
 @media only screen and(max-width:600px) {
     body {
@@ -49,10 +57,18 @@ body {}
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-    fill: rgba(236, 72, 153, var(--tw-text-opacity));
+    fill: rgb(145, 0, 158);
 }
 
 .svg-icon circle {
-    stroke: rgba(236, 72, 153, var(--tw-text-opacity));
+    stroke: rgb(145, 0, 158);
     stroke-width: 1;
+}
+
+.bg-violet {
+    background-color: rgb(145, 0, 158);
+}
+
+.text-violet {
+    color: rgb(145, 0, 158);
 }

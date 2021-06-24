@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopNav = () => {
     return (
-        <div className="bg-white shadow h-12 flex  justify-between px-5 items-center text-2xl text-blue-800">
+        <div className="bg-white shadow h-12 flex  justify-between px-5 items-center text-2xl text-blue-800 fixed top-nav">
             <div>
                 <svg class="svg-icon text-blue-800" viewBox="0 0 20 20">
                     <path fill="none" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314

@@ -58,11 +58,15 @@ body {
         margin-right: 2%;
         margin-left: 2%;
     }
-    .top-nav {
+    .top-nav,
+    .collapseMenu {
         width: 96%;
     }
     .menu-pc {
         display: none;
+    }
+    .register {
+        width: 90%;
     }
 }
 

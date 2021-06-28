@@ -1,12 +1,16 @@
 import React from 'react';
-import MainPage from '../Components/MainPage/MainPage';
-import TopNav from './../Components/Navs/TopNav';
+import { BrowserRouter } from 'react-router-dom';
+import GlobalState from '../Context/GlobalState';
+import SelfLearn from './SelfLearn';
 
 const App = () => {
   return ( 
     <div>
-      <TopNav/>
-      <MainPage/>
+      <BrowserRouter>
+        <GlobalState>
+          <SelfLearn/>
+        </GlobalState>
+      </BrowserRouter>
     </div>
    );
 }
